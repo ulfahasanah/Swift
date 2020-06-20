@@ -30,7 +30,20 @@ let pi = 3.14 // double
 let double = 4 // int
 let anotherPi = 3 + 0.14 // double
 
+let three = 3
+let pointOneFourOneFiveNine = 0.14159
+let doublePlusDouble = Double(three) + pointOneFourOneFiveNine
 
+let integerPi = Int(doublePlusDouble)
+print(integerPi)
+
+typealias AudioSample = UInt16
+var maxAmplitudeFound = AudioSample.min
+
+let i = 1
+if i == 1{
+print(true)
+}
 
 
 
