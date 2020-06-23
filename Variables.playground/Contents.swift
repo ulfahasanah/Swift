@@ -27,10 +27,7 @@ for o in 23...29 {
     print(o)
 }
 
-for u in 6...9 {
-    print(u)
-}
 
-for r in 8...34 {
-    print(r, terminator: "")
+for index in 1...5 {
+   print("\(index) times 5 is \(index * 5)")
 }
